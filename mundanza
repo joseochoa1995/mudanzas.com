@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUDANZAS.COM</title>
+</head>
+
+<CEnter>
+    <H1>MUDANZAS.COM</H1>
+
+</CEnter>
+
+
+<style>
+body
+
+{ 
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHSKPW3_zU4bmsf-jq4oNAbwa9jWbt-dH-fLifASt5XG9xKYa9ogkvxMlY28BG8r-uu_jCAGTh276OHgVjCBJON5VOZryNHyZj6dunIKCBIEh3inxIQ3k6AZb4NYBzJYo710iRvNHdcyCsm5hhiKb5SgNEI4m_6FIvjzSmGhSZFCbXMnGO9ShLZAyHAA/s16000/mudanzas%20fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+</style> <br><br><br>
+
+<center>
+    <h1>Dejanos tus datos y te llamamos</h1>
+</center>
+
+<center>
+<form>
+    <label for="nombre" style="font-size: 200%;">    
+    nombre:</label><br>
+    <input type="text" id="Nombre" name="nombre"><br>
+    <label for="telefono" style="font-size: 200%;">telefono:</label><br>
+    <input type="number" name="telefono" id="telefono"><br>
+    <label for="correo" style="font-size: 200%;">correo:</label><br>
+    <input type="text" id="correo" name="correo"><br><br>
+    <input type="button" value="enviar solicitud" name="enviar solicitud">
+</form>
+
+</center><br><br>
+
+<Center>
+    <h1>Servicios</h1>
+</Center>
+
+<center>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFu36Npuhd3kGXwWphvpMx1oBhT-H43TMH_Yj6WYsQN9QzCSUrW1hTbjNBaENwQgcnfjppILGi3ijVYwafg8jW6kr_o_md6cDjRfZQVlxKWwxOuQGgsakADg8y_kFLP6xkeuawlsSqgG662H6K21qVdmo6XRTACQ2CcI8_13kUHz2u_h8uLpNzYF6eYQ/w529-h640/servicios%20de%20mudanzas.PNG" alt="servicios de mudanzas" 
+    style="width: 600px;height: 600px;">
+</center>
+
+<center>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgIG4QkTB_4FKniRNSdPLoa01sIKjr8gh7YBANPxUVy-R7NDwWzN6UfrSzZQemDvFJcRtPM2lIbi24KOjszEpUD2pPyPwhleMj-dDSwz6SvWaMv4z0CRdZmeqsbpueu_r5TDL346tC1FfZEbic6UvidWztNkZue-wwUhLXOrhxUgV4w60yC21dDPf4fQ/w640-h469/quienes%20son2.jpg" alt="quienes son"
+    style="width: 600px;height: 600px;">
+</center>
+
+
+<form action="action_page.php" method="post">
+    <div class="imgcontainer">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhE8INpWWTNWGiXO2ZwITMHes7R31keZhqvcnSxSSOEWTIaQHpbasklLl7JFPYZ5swTMG9R117xHrh-Zw6FybPFTeoLtG_FfBt2JjUKbXG2sVD_Esd3wb07ptX_Djug9R5JkgNrB2i2Tfa431eZX3KhSa4cwGNDxy8J3r0mJ3hs1BmuH1SmG3dnLLayoQ/s1600/logo%20mudanzas.PNG" alt="Avatar" class="avatar">
+    </div>
+  
+    <div class="container">
+      <label for="uname"><b>usuario</b></label>
+      <input type="text" placeholder="inserte su usuario" name="uname" required>
+  
+      <label for="psw"><b>contraseña</b></label>
+      <input type="password" placeholder="inserte su contraseña" name="psw" required>
+  
+      <button type="submit">entrar</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Recordarme
+      </label>
+    </div>
+  
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancelar</button>
+      <span class="psw">olvide mi <a href="#">contraseña?</a></span>
+    </div>
+  </form>
+
+
+</body>
+</html>
+
+
